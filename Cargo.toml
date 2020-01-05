@@ -1,0 +1,15 @@
+[package]
+name = "nuc1xx-hal"
+version = "0.1.0"
+authors = ["Andrey Zgarbul <zgarbul.andrey@gmail.com>"]
+categories = ["embedded", "hardware-support", "no-std"]
+edition = "2018"
+description = "HAL for Novuton NUC140"
+repository = "https://github.com/burrbull/nuc1xx-hal"
+keywords = ["riscv", "novuton", "nuc140", "hal"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+embedded-hal = { version = "0.2.1", features = ["unproven"] }
+nb = "0.1.1"
+nuc1xx = { version = "0.1.1", features = ["rt"] }
