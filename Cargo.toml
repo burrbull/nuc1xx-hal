@@ -8,6 +8,7 @@ description = "HAL for Novuton NUC140"
 repository = "https://github.com/burrbull/nuc1xx-hal"
 keywords = ["riscv", "novuton", "nuc140", "hal"]
 license = "MIT OR Apache-2.0"
+readme = "README.md"
 
 [dependencies]
 embedded-hal = { version = "0.2.1", features = ["unproven"] }
